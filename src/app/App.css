@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Alike', serif;
+}
+
+/* Main Display Box */
+.MainDisplay {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Topic Display */
+.TopicDisplay {
+  width: 80vw;
+}
+
+/* Top Picker */
+.TopicPicker {
+  width: 20vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  
+}
+
+.TopicPicker {
+  padding-top: 10vh;
+}
+
+.TopicPicker h2, h3 {
+  width: 80%;
+  margin: 15px;
+  text-align: center;
+}
+
+.TopicPicker h3 {
+  border-radius: 5px;
+  padding: 5px 0;
+  border: black 1px solid;
+  background-color: black;
+  color: white;
+}
+
+.TopicPicker h3:hover {
+  background-color: white;
+  color: black;
+}

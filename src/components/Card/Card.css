@@ -1,0 +1,16 @@
+.Card {
+  width: 75%;
+  text-align: center;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px black solid;
+}
+
+.Card:hover {
+  background-color: black;
+  color: white;
+}
+
+.Card h4 {
+  text-align: center;
+}

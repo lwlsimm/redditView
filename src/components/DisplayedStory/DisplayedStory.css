@@ -1,0 +1,18 @@
+.DisplayedStory {
+  padding: 30px 50px;
+  text-align: justify;
+}
+
+.DisplayedStory h2 {
+  text-align: center;
+  text-emphasis: none;
+  padding-bottom: 40px;
+}
+
+.DisplayedStory p {
+  padding-bottom: 20px;
+}
+
+.Bold {
+  font-weight: bold;
+}
